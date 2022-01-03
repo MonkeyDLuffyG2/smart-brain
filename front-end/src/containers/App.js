@@ -12,7 +12,7 @@ import "./App.css";
 const particleOptions = {
   particles: {
     number: {
-      value: 120,
+      value: 125,
     },
     size: {
       value: 4,
