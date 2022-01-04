@@ -91,7 +91,7 @@ class App extends Component {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        input: this.state.user.input,
+        input: this.state.input,
       }),
     })
       .then((response) => response.json())
